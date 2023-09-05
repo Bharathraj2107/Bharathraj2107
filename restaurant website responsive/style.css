@@ -1,0 +1,195 @@
+/* css reset */
+*{
+    margin:0;
+    padding:0;
+}
+/* css variables */
+:root{
+    --navbar-height:59px;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    
+}
+/* navigation bar :logo and image (entire img and li tag to move up and down)*/
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity:0.4;
+}
+#logo{    
+margin:10px 28px;
+}
+/* navigation bar :list styling (img height and widht setter)*/
+#logo img{    
+    margin:3px 5px;
+    height:59px; 
+}
+/* making bg color black and then display the content on it */
+#navbar{
+    position:relative;
+}
+#navbar ul{
+    display:flex;
+    font-family:'Playball', cursive;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display:block;
+    color:white;
+    padding:3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+color:black;
+background-color:white; 
+}
+#home{
+    display:flex;
+    flex-direction: column;
+    padding:3px 200px;
+    justify-content: center;
+    align-items: center;
+    height:563px;
+}
+#home::before{
+    content:"";
+    background:url('../bg.jpg') no-repeat center center/cover;;
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity:0.89;
+}
+/* services section */
+#services{
+    /* margin: 1px; */
+    display: flex;
+    padding: 3px 6px;
+}
+ 
+ #services .box{
+     border:2px solid brown;
+     padding:34px;
+     margin:20px 6px;
+     border-radius: 28px;
+     background-color: #cdcdcd;
+
+ }
+ #services .box img{
+     height:160px;
+     display:block;
+     margin:auto;
+     width:160px;
+    
+ }
+ #services .box p{
+    font-family: sans-serif;
+ }
+ /* client section */
+ #client-section{
+    height:344px;
+
+ }
+ #clients{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #clients .client-item img{
+    height:230px;
+    padding:34px;
+ }
+ #client-section::before{
+    content:"";
+    position:absolute;
+    background: url('bg.jpg');
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity:0.8;
+ }
+/* utility classes */
+.h-primary{
+    font-size:2.3rem;
+    padding:12px;
+    font-family: 'Playball', cursive;
+
+}
+.h-secondary{
+    font-size:2.8rem;
+    padding:12px;
+}
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 3.8rem;
+}
+
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.btn{
+ padding:6px 200px;
+  border:2px solid white;
+  background-color: brown;
+  color:white;
+  margin:17px;
+  border-radius:10px ;
+  font-size: 1.5rem;
+  cursor:pointer;
+}
+.center{
+    text-align: center;
+}
+/* contact section */
+#contact{
+    position:relative;
+}
+#contact::before{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+z-index: -1;
+opacity:0.7;
+background: url('../contact.jpg') no-repeat center center/cover;
+}
+#contact-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:34px;
+}
+#contact-box form{
+    width:40%;
+}
+#contact-box label{
+    font-size:1.3rem;
+    font-family: sans-serif;
+}
+#contact-box input,
+#contact-box textarea{
+    width:100%;
+    padding:0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+footer{
+    background-color: black;
+    color:white;
+    padding:9px 20px;
+}

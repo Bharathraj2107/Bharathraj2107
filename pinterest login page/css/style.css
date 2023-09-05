@@ -1,0 +1,55 @@
+body{
+    background:url('/media/pibg.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+.full{
+    width:500px;
+    background-color:rgb(255, 255, 255);
+  margin:250px auto;
+  padding:20px 20px 30px;
+}
+.heading{
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+.totaltext input{
+   width:100%; 
+   display:block;
+   padding:10px 20px;
+   border-radius: 8rem;
+   box-sizing: border-box;
+   margin:10px 0 20px;
+}
+.totaltext input:focus{
+    border:7px solid lightskyblue;
+}
+.last{
+    display:block;
+    padding:30px 20px;
+    text-align:center;
+}
+.continue {
+    text-align:center;
+   
+}
+.facebook{
+    text-align:center;
+    
+}
+.pg{
+    text-align:center; 
+}
+button{
+    width:400px;
+    border-radius:8em;
+    padding:10px 20px;
+    color:black;
+
+}
+.continue button{
+    background-color: red;
+}
+.facebook button{
+    background-color:deepskyblue;
+}
