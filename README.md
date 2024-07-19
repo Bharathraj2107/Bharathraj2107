@@ -1,8 +1,7 @@
 <h1 align="center">Hey Everyone 👋, I'm V.Bharath Raj </h1>
 <div align="center"> <img src="https://raw.githubusercontent.com/bharathraj2107/bharathraj2107/main/banner-3.png"> </div>
 <h3 align="center">A passionate Python Full Stack Engineer From India. 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/bharathraj2105/bharathraj2105/master/gif3.gif">
-
+<!-- <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/bharathraj2105/bharathraj2105/master/gif3.gif"> -->
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bharathraj2105label=Profile%20views&color=0e75b6&style=flat" alt="bharathraj2107" /> </p>
 
 - 🔭 I’m currently working on Python Full Stack
